@@ -1,0 +1,66 @@
+@font-face {
+  font-family: estdat;
+  src: url(fonts/Estedad-FD-SemiBold.woff2);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: estdat;
+}
+body{
+  font-family: estdat;
+  background: url(images/bg.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(5px);
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+main{
+  margin: auto;
+  width: calc(100%);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .maindiv{
+    width: calc(500px);
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.32);
+    background: rgba(255, 255, 255, 0.824);
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+#result{
+  width: 105%;
+  height: 150px;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  flex-direction: column;
+  .temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    div{
+      font-size: 50px;
+      text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.539);
+    }
+  }
+}
