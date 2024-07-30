@@ -23,4 +23,6 @@ Welcome to our beautiful and user-friendly Weather Forecast Website! 🌍✨
 
 ## Try It Out Now! 🚀
 
+The Telegram BOT version on my github <a href="https://github.com/Arashnasrivatan/telegram-weather-bot">Click To See 👀</a>
+
 Download the source code and stay updated with the latest weather conditions! 🌦️💨
